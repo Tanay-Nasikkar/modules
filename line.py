@@ -29,7 +29,7 @@ class Line:
                 self.from_two_points(point, point_on_line)
 
     def __repr__(self):
-        return f"y = x({self.slope}) + {self.y_intercept}"
+        return f"<{self.__class__.__name__}: y = ({self.slope})x + {self.y_intercept}>"
 
     def __copy__(self):
         new_line = self.__class__()
