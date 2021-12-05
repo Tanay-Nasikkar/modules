@@ -1,6 +1,6 @@
 import math
 
-#lol
+
 class Line:
     _x_intercept: float = None
     _y_intercept: float = None
